@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jura', sans-serif;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    box-shadow: 0.03rem 0.03rem 0.4rem 0.15rem rgba(0,0,0, 0.5);
+    
+       
+}
+#form{
+    width: 60vw;
+    padding: 1rem;
+    
+}
+input{
+    border:none;
+    border-bottom: thin solid rgba(0,0,0);
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    border: none;
+    border-bottom: thin solid rgba(0,0,0);
+    resize: none;
+}
+textarea:focus{
+    outline: none;
+    
+}
+#form-submit{
+    border: none;
+    background-color: rgb(100, 149, 237);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+#tabs-blog{
+    margin-top: 1rem;
+}
+#wallet-info{
+    margin-top: 2rem;
+}
+::-webkit-file-upload-button{
+    border: none;
+    background-color: rgb(100, 149, 237);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+label,
+p{
+    color: rgb(100, 149, 237);
+}
+.tabs-black{
+    color: black;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
